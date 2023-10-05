@@ -12,7 +12,7 @@ const Grid = () => {
           Take your content game to the next level.
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl lg:px-0 sm:px-4 px-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-[87rem] gap-4 lg:px-0 sm:px-4 px-6">
         <div className="grid gap-4 ">
           <div>
             <img
@@ -22,7 +22,7 @@ const Grid = () => {
             />
           </div>
           <div>
-            <div className="h-[400px]  lg:w-[275px] w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
+            <div className="h-[420px]  lg:w-[275px] w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
               <div className="flex justify-center  items-center flex-col font-Montserrat ">
                 <h1 className="font-extrabold  text-[75px] tracking-widest  text-transparent bg-clip-text bg-gradient-to-b translate-x-2 -translate-y-7  from-white to-[#6db0b7] ">
                   FULLY

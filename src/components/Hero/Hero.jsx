@@ -18,13 +18,13 @@ const Hero = () => {
               <span>Videos are complex.</span> <br />
               <span>Let us craft them for you.</span>
             </div>
-            <p className="leading-normal font-normal  text-white font-Outfit">
+            <p className="leading-normal font-normal  text-white font-Montserrat">
               Turning videos into viewer/lead magnets, we handle everything –
               from scripting, editing to stunning after effects. Consistently
               impress with eye catchy, viral-ready content.
             </p>
             <div className="">
-              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Outfit lg:text-xl sm:text-base">
+              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
                 Book a call
               </button>
             </div>

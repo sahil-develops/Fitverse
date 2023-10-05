@@ -9,8 +9,7 @@ export default {
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
         Jost: ['Jost', 'sans-serif'],
-        Outfit:['Outfit', 'sans-serif'],
-        Inter:['Inter', 'sans-serif'],
+    
       },
     },
   },

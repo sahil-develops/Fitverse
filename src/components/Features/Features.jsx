@@ -10,7 +10,7 @@ const Features = () => {
         <h1 className="font-Montserrat font-semibold text-white lg:text-[64px] sm:text-[32px] text-2xl">
           Perks of working with us.
         </h1>
-        <p className="font-Outfit font-normal text-white lg:text-xl sm:text-base text-sm">
+        <p className="font-Montserrat font-normal text-white lg:text-xl sm:text-base text-sm">
           Transforming videos, setting new standards.
         </p>
       </div>

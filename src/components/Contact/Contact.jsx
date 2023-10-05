@@ -35,7 +35,7 @@ const Contact = () => {
               <label for="message" className="block  text-sm font-medium font-Montserrat text-white">Your message</label>
               <textarea  rows="6" cols="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Write a meesage"></textarea>
           </div>
-          <button type='submit'  className="bg-[#E0DDFF] px-9 py-2 w-1/4 rounded-full text-[#181818] font-semibold font-Outfit lg:text-xl sm:text-base">
+          <button type='submit'  className="bg-[#E0DDFF] px-9 py-2 w-1/4 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
                 Submit
               </button>
       </form>
