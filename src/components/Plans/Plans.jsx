@@ -228,6 +228,11 @@ const Plans = () => {
           </motion.div>
         </motion.div>
       </div>
+      <div className="text-center">
+      <button className="bg-[#E0DDFF] hover:bg-[#1F577E] hover:text-white transition-all duration-300 px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
+                Browse more
+              </button>
+      </div>
     </div>
   );
 };

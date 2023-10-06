@@ -24,7 +24,7 @@ const Hero = () => {
               impress with eye catchy, viral-ready content.
             </p>
             <div className="">
-              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
+              <button className="bg-[#E0DDFF] hover:bg-[#1F577E] hover:border-[#E0DDFF] hover:border hover:text-white transition-all duration-300 px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
                 Book a call
               </button>
             </div>
