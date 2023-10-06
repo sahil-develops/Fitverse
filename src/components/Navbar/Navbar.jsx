@@ -101,24 +101,24 @@ function Navbar() {
           <ul className="flex flex-col font-Jost p-4 md:p-0 mt-4 text-base font-normal rounded-lg  md:flex-row md:space-x-8 md:mt-0  ">
             <li>
               <p
-                className="block py-2 pl-3 pr-4 text-white md:p-0"
+                className="block py-2 pl-3 pr-4 text-white md:p-0 hover:scale-125 cursor-pointer hover:border-b hover:mb-1 border-white transition-all duration-300 "
                 aria-current="page"
               >
                 Benefits
               </p>
             </li>
             <li>
-              <p className="block py-2 pl-3 pr-4 text-white rounded   md:p-0 ">
+              <p className="block py-2 pl-3 pr-4 text-white rounded  hover:scale-125 cursor-pointer transition-all duration-300  md:p-0 ">
                 About Us
               </p>
             </li>
             <li>
-              <p className="block py-2 pl-3 pr-4 text-white rounded md:p-0 ">
+              <p className="block py-2 pl-3 pr-4 text-white rounded hover:scale-125 cursor-pointer transition-all duration-300  md:p-0 ">
                 Services
               </p>
             </li>
             <li>
-              <p className="block py-2 pl-3 pr-4  rounded md:p-0 text-white ">
+              <p className="block py-2 pl-3 pr-4  rounded md:p-0 text-white hover:scale-125 cursor-pointer transition-all duration-300  ">
                 Blog
               </p>
             </li>

@@ -7,6 +7,10 @@ import "/blob.svg";
 import { motion } from "framer-motion";
 
 const Plans = () => {
+  const cardVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
   return (
     <div className="py-20 flex justify-center items-center relative font-Montserrat flex-col gap-20     z-[1]">
       <div>
@@ -55,7 +59,7 @@ const Plans = () => {
     initial={{ opacity: 0, y: 10 }}
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: 10 }}
-    transition={{ duration: 0.8 }}
+    transition={{ duration: 0.95 }}
   >
     <Lottie animationData={Youtube} className="w-40" />
   </motion.div>
@@ -174,19 +178,19 @@ const Plans = () => {
   <motion.div
     className="group-hover:hidden"
     initial={{ opacity: 0, y: 10 }}
-    animate={{ opacity: 1, y: 0 }}
-    exit={{ opacity: 0, y: 10 }}
-    transition={{ duration: 0.8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ duration: 0.6 }}
   >
-    <Lottie animationData={Youtube} className="w-40" />
+    <Lottie animationData={SaaS} className="w-40" />
   </motion.div>
 
   <motion.div
     className="flex justify-center items-center flex-col text-white group-hover:hidden"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    transition={{ duration: 0.8 }}
+    initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ duration: 0.6 }}
   >
     <p className="font-Montserrat font-bold text-[22px] ">$4,499/Monthly</p>
   </motion.div>

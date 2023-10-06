@@ -28,7 +28,7 @@ const Timeline = () => {
 
 
   return (
-    <div className="flex justify-around items-center px-2 overflow-hidden w-full text-white py-10 font-Montserrat ">
+    <div className="flex justify-start items-center  max-w-7xl mx-auto overflow-hidden w-full text-white py-10 font-Montserrat ">
       <div>
         <p className="">| Our Use Cases</p>
         <p className=" font-semibold text-4xl whitespace-nowrap">
@@ -39,7 +39,7 @@ const Timeline = () => {
         {["01.", "02.", "03."].map((elementNumber) => (
         <div
           key={elementNumber}
-          className={`bg-[#3F3F3F] rounded-lg ${hoveredElement !== elementNumber ? "w-48" : "w-auto"} group cursor-pointer transition-all duration-700 flex items-center justify-start`}
+          className={`bg-[#3F3F3F] rounded-lg ${hoveredElement !== elementNumber ? "w-48" : "w-auto"} whitespace-nowrap group cursor-pointer transition-all duration-700 flex items-center justify-start`}
           onMouseEnter={() => handleMouseEnter(elementNumber)}
           onMouseLeave={handleMouseLeave}
         >
