@@ -9,33 +9,33 @@ const Contact = () => {
             <img src="/circle.svg" alt="" className="absolute -left-8 bottom-96 z-[-1] lg:flex hidden"  />
             <img src="/whitecircle.svg" alt="" className="absolute bottom-96 left-1 z-[-1] lg:flex hidden"  />
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-4xl overflow-hidden">
-      <h2 className=" text-4xl  font-semibold text-center font-Montserrat dark:text-white">Contact</h2>
-      <p className="mb-8 lg:mb-16 font-normal text-center text-white sm:text-sm font-Montserrat">Turning videos into viewer/lead magnets, we handle everything – from scripting, editing to stunning after effects. Consistently impress with eye catchy, viral-ready content.</p>
+      <h2 className=" lg:text-4xl sm:text-3xl text-2xl  font-semibold text-center font-Montserrat dark:text-white">Contact</h2>
+      <p className="mb-8 lg:mb-16 font-normal text-center text-white sm:text-sm text-xs font-Montserrat">Turning videos into viewer/lead magnets, we handle everything – from scripting, editing to stunning after effects. Consistently impress with eye catchy, viral-ready content.</p>
       <form action="#" className="space-y-8 bg-[#111111] px-10 py-5 flex flex-col rounded-xl   ">
         <div className='flex sm:flex-row flex-col w-full sm:justify-between justify-stretch sm:items-start sm:gap-0 gap-5'>
           <div>
-              <label for="email" className="block text-sm font-medium font-Montserrat text-white">First Name</label>
+              <label for="email" className="block text-sm font-medium font-Montserrat text-white py-4">First Name</label>
               <input type="email"  className="shadow-sm w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Rohan" required/>
           </div>
           <div>
-              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white">Last Name</label>
+              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white py-4">Last Name</label>
               <input type="text"  className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Joshi" required/>
           </div>
 
           <div>
-              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white">Email</label>
+              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white py-4">Email</label>
               <input type="email"  className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="rohanjoshi@gmail.com" required/>
           </div>
         </div>
           <div>
-              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white">Your Website</label>
+              <label for="subject" className="block  text-sm font-medium font-Montserrat text-white py-4">Your Website</label>
               <input type="text"  className="block p-3  w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="www.google.com" required/>
           </div>
           <div className="sm:col-span-2">
-              <label for="message" className="block  text-sm font-medium font-Montserrat text-white">Your message</label>
+              <label for="message" className="block  text-sm font-medium font-Montserrat text-white py-4">Your message</label>
               <textarea  rows="6" cols="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Write a meesage"></textarea>
           </div>
-          <button type='submit'  className="bg-[#E0DDFF] px-9 py-2 w-1/4 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
+          <button type='submit'  className="bg-[#E0DDFF] px-9 py-2 lg:w-1/4 sm:w-1/2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
                 Submit
               </button>
       </form>

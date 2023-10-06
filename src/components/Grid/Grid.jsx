@@ -7,12 +7,12 @@ import Video4 from "../../assets/Images/Video4.png";
 const Grid = () => {
   return (
     <div className="flex justify-center flex-col items-center py-10 gap-8">
-      <div className="px-10 py-5">
-        <h1 className="lg:text-[64px] md:text-[50px] sm:text-[32px] text-2xl text-white text-center font-Montserrat font-semibold ">
+      <div className="px-11 py-5">
+        <h1 className="lg:text-[60px] md:text-[50px] sm:text-[32px] text-2xl text-white text-center font-Montserrat font-semibold ">
           Take your content game to the next level.
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-[87rem] gap-4 lg:px-0 sm:px-4 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-[87rem] lg:gap-6 sm:gap-10 lg:px-0 sm:px-4 px-6">
         <div className="grid gap-4 ">
           <div>
             <img
@@ -22,7 +22,7 @@ const Grid = () => {
             />
           </div>
           <div>
-            <div className="h-[420px]  lg:w-full w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
+            <div className="lg:h-[420px] sm:h-[220px] lg:py-0 lg:my-0 my-8 lg:w-full w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
               <div className="flex justify-center  items-center flex-col font-Montserrat ">
                 <h1 className="font-extrabold  text-[75px] tracking-widest  text-transparent bg-clip-text bg-gradient-to-b translate-x-2 -translate-y-7  from-white to-[#6db0b7] ">
                   FULLY
@@ -59,7 +59,7 @@ const Grid = () => {
           </div>
           <div>
             <img
-              className="h-[300px] w-full rounded-[15px] bg-cover"
+              className="lg:h-[300px] lg:py-0 py-5 h-full w-full rounded-[15px] bg-cover"
               src={Video2}
               alt=""
             />
@@ -83,7 +83,7 @@ const Grid = () => {
         <div className="grid gap-4">
           <div>
             <img
-              className="h-[240px] w-full rounded-[15px] bg-cover"
+              className="h-[240px] lg:py-0 py-5 w-full rounded-[15px] bg-cover"
               src={Video4}
               alt=""
             />

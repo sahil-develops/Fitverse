@@ -37,7 +37,7 @@ const Faq = () => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-5 py-20 w-full ">
-      <h1 className="text-white font-Montserrat font-semibold lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+      <h1 className="text-white font-Montserrat font-semibold lg:text-6xl md:text-4xl sm:text-3xl text-2xl">
         FAQ's
       </h1>
       <div className="flex justify-center flex-col gap-10 py-8 max-w-5xl  sm:w-3/4 w-11/12 ">
@@ -51,7 +51,7 @@ const Faq = () => {
               className="cursor-pointer w-full transition-all duration-200"
              onClick={() => toggleAccordion(index)}
             >
-              <h1 className="text-white  text-left  font-Montserrat text-2xl font-medium bg-[#3f3f3f] rounded-full px-5 py-2 flex justify-between items-center ">
+              <h1 className="text-white  text-left  font-Montserrat lg:text-2xl text-xl font-medium bg-[#3f3f3f] rounded-full px-5 py-2 flex justify-between items-center ">
                 {data.title}
 
                 <img
@@ -66,7 +66,7 @@ const Faq = () => {
 
             {activeIndex === index && (
               <motion.p
-                className="text-white  mx-5 py-6 rounded-sm "
+                className="text-white  mx-5 py-6 rounded-sm sm:text-sm xs:text-xs "
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 10 }}

@@ -17,7 +17,7 @@ const Features = () => {
       <div>
      
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-28 md:space-y-0">
+            <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-28 gap-10 md:space-y-0">
               <div>
                 <div className="flex flex-col  justify-center items-center mb-4  ">
                   <Lottie animationData={Revise} className="w-40" />
