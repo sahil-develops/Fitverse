@@ -22,7 +22,7 @@ const Grid = () => {
             />
           </div>
           <div>
-            <div className="h-[420px]  lg:w-[275px] w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
+            <div className="h-[420px]  lg:w-full w-full flex justify-between items-center flex-col relative overflow-hidden bg-gradient-to-b from-cyan-600 to-neutral-900  rounded-[15px]">
               <div className="flex justify-center  items-center flex-col font-Montserrat ">
                 <h1 className="font-extrabold  text-[75px] tracking-widest  text-transparent bg-clip-text bg-gradient-to-b translate-x-2 -translate-y-7  from-white to-[#6db0b7] ">
                   FULLY
