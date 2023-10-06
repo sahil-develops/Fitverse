@@ -23,14 +23,14 @@ function Navbar() {
               stroke-width="2"
             />
           </svg>
-          <span className="self-center font-Jost text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center font-Montserrat text-2xl font-semibold whitespace-nowrap dark:text-white">
             edit
           </span>
         </p>
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-white font-Jost font-medium rounded-full lg:text-base sm:text-sm text-xs lg:px-6 px-5 lg:py-1 py-0 border border-[#92929280] text-center mr-3 md:mr-0 dark:bg-[#92929280] "
+            className="text-white font-Montserrat hover:bg-[#E0DDFF] hover:text-black transition-all duration-300 font-medium rounded-full lg:text-base sm:text-sm text-xs lg:px-6 px-5 lg:py-1 py-0 border border-[#92929280] text-center mr-3 md:mr-0 dark:bg-[#92929280] "
           >
             Log-In/Sign-Up
           </button>
@@ -98,7 +98,7 @@ function Navbar() {
               </svg>
             </button>
           </div>
-          <ul className="flex flex-col font-Jost p-4 md:p-0 mt-4 text-base font-normal rounded-lg  md:flex-row md:space-x-8 md:mt-0  ">
+          <ul className="flex flex-col  p-4 md:p-0 mt-4 text-base font-normal rounded-lg  md:flex-row md:space-x-8 md:mt-0 font-Montserrat ">
             <li>
               <p
                 className="block py-2 pl-3 pr-4 text-white md:p-0 lg:hover:scale-125 cursor-pointer hover:mb-1 border-white transition-all duration-300 "

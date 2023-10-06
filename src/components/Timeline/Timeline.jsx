@@ -26,7 +26,7 @@ const Timeline = () => {
   };
 
   return (
-    <div className="flex justify-start items-center lg:px-0 px-10 max-w-7xl mx-auto overflow-hidden w-full text-white py-10 font-Montserrat ">
+    <div className="flex justify-start items-center lg:px-0 px-10 max-w-7xl mx-auto  w-full text-white py-10 font-Montserrat ">
       <div>
         <p className="">| Our Use Cases</p>
         <p className=" font-semibold lg:text-4xl sm:text-2xl text-xl whitespace-nowrap">
@@ -35,44 +35,38 @@ const Timeline = () => {
         </p>
         <div className="flex flex-col justify-start items-start gap-5 w-full py-10 font-Montserrat  ">
           {["01.", "02.", "03."].map((elementNumber) => (
-            <div
+            <motion.div
+      
               key={elementNumber}
               className={`bg-[#3F3F3F] rounded-lg ${
-                hoveredElement !== elementNumber ? "lg:w-40 sm:w-32" : "w-auto"
+                hoveredElement !== elementNumber ? "lg:w-40 sm:w-32 " : "w-auto "
               } whitespace-nowrap group cursor-pointer transition-all duration-700 flex items-center justify-start`}
               onMouseEnter={() => handleMouseEnter(elementNumber)}
               onMouseLeave={handleMouseLeave}
             >
               <motion.p
+                    initial={{ y: 0 }}
+                    animate={{ y: -20 }}
+                    exit={{ y: 0}}
+                    transition={{ duration: 0.8, repeat: Infinity, repeatType: "reverse", delay: 0.8 }}
                 className={`block lg:text-7xl sm:text-3xl text-2xl lg:p-[20px] p-8 text-transparent bg-clip-text bg-gradient-to-b from-[#6db0b7] to-[#3F3F3F] ${
-                  hoveredElement !== elementNumber ? "opacity-100" : "opacity-0"
+                  hoveredElement !== elementNumber ? "opacity-100 block" : "opacity-0 hidden" 
                 } bg-[#3F3F3F]`}
-                initial={{ x: 0 }}
-                animate={{ x: -5 }}
-                exit={{ x: -5 }}
-                transition={{
-                  duration: 0.5,
-                  repeat: Infinity,
-                  repeatType: "reverse",
-                  delay: 0.5,
-                }}
+              
               >
                 {elementNumber}
               </motion.p>
               <AnimatePresence>
                 {hoveredElement === elementNumber && (
                   <motion.p
-                    initial={{ opacity: 0, x: 100 }}
-                    animate={{ opacity: 1, x: -100 }}
-                    exit={{ opacity: 0, x: 100 }}
-                    transition={{ duration: 0.2 }}
+               
                     className={`lg:text-7xl sm:text-3xl text-2xl lg:p-[20px] p-7 text-white block bg-clip-text bg-gradient-to-b from-[#6db0b7]  bg-[#3F3F3F]`}
                   >
                     {elementText[elementNumber]}
                   </motion.p>
                 )}
               </AnimatePresence>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
