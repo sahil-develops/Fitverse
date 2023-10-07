@@ -12,7 +12,7 @@ const Grid = () => {
           Take your content game to the next level.
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 justify-around items-center justify-items-stretch lg:grid-cols-4 max-w-[87rem] lg:gap-6 sm:gap-10 lg:px-0 sm:px-4 px-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-stretch xl:grid-cols-4 max-w-[87rem] lg:gap-6 sm:gap-10 lg:px-0 sm:px-4 px-6">
         <div className="grid gap-4 ">
           <div>
             <img

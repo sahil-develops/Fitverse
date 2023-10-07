@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 
 const Contact = () => {
   return (
@@ -35,9 +36,10 @@ const Contact = () => {
               <label for="message" className="block  text-sm font-medium font-Montserrat text-white py-4">Your message</label>
               <textarea  rows="6" cols="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Write a meesage"></textarea>
           </div>
-          <button type='submit'  className="bg-[#E0DDFF] hover:bg-[#1F577E]   hover:text-white transition-all px-9 py-2 lg:w-1/4 sm:w-1/2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Submit
-              </button>
+          <div className='text-center'>
+         <Button text='Submit'  />
+
+          </div>
       </form>
   <img src="/square.svg" alt="" className="absolute -right-10 bottom-5 z-[-1] lg:flex hidden"  />
             <img src="/circle.svg" alt="" className="absolute  -right-48 bottom-40  z-[-1] lg:flex hidden"  />

@@ -45,9 +45,9 @@ const Timeline = () => {
               onMouseLeave={handleMouseLeave}
             >
               <motion.p
-                    initial={{ y: 0 }}
-                    animate={{ y: -20 }}
-                    exit={{ y: 0}}
+                    initial={{ y: 5 }}
+                    animate={{ y: -8  }}
+                    exit={{ y: 5}}
                     transition={{ duration: 0.8, repeat: Infinity, repeatType: "reverse", delay: 0.8 }}
                 className={`block lg:text-7xl sm:text-3xl text-2xl lg:p-[20px] p-8 text-transparent bg-clip-text bg-gradient-to-b from-[#6db0b7] to-[#3F3F3F] ${
                   hoveredElement !== elementNumber ? "opacity-100 block" : "opacity-0 hidden" 

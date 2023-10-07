@@ -5,12 +5,10 @@ import Youtube from "../../assets/Lottie/youtube.json";
 import SaaS from "../../assets/Lottie/SaaS.json";
 import "/blob.svg";
 import { motion } from "framer-motion";
+import Button from "../Button/Button";
 
 const Plans = () => {
-  const cardVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
+ 
   return (
     <div className="py-20 flex justify-center items-center relative font-Montserrat flex-col gap-20     z-[1]">
       <div>
@@ -95,9 +93,7 @@ const Plans = () => {
                   $4,499/Monthly
                 </p>
               </div>
-              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Book a call
-              </button>
+             <Button text='Browse more' />
             </div>
           </motion.div>
         </motion.div>
@@ -126,14 +122,14 @@ const Plans = () => {
           </motion.div>
 
           <motion.div
-            className="flex justify-center items-center flex-col text-white group-hover:hidden"
+            className="flex justify-center items-center flex-col text-white gap-2 group-hover:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8 }}
           >
             <p className="font-Montserrat font-bold lg:text-[22px] sm:text-sm ">$79/Reel</p>
-            <p className="font-Montserrat font-bold text-[22px] sm:text-sm ">
+            <p className="font-Montserrat font-bold lg:text-[22px] sm:text-sm  ">
               $999/Monthly
             </p>
           </motion.div>
@@ -160,9 +156,7 @@ const Plans = () => {
                   $999/Monthly
                 </p>
               </div>
-              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Book a call
-              </button>
+             <Button text='Browse more' />
             </div>
           </motion.div>
         </motion.div>
@@ -221,17 +215,13 @@ const Plans = () => {
                   $4,499/Monthly
                 </p>
               </div>
-              <button className="bg-[#E0DDFF] px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Book a call
-              </button>
+            <Button text='Browse more' />
             </div>
           </motion.div>
         </motion.div>
       </div>
       <div className="text-center">
-      <button className="bg-[#E0DDFF] hover:bg-[#1F577E] hover:text-white transition-all duration-300 px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Browse more
-              </button>
+      <Button text='Browse  more' />
       </div>
     </div>
   );

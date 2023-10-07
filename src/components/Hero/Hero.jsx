@@ -2,6 +2,7 @@ import React from "react";
 import Video from "../../assets/Lottie/Video.json";
 
 import Lottie from "lottie-react";
+import Button from "../Button/Button";
 const Hero = () => {
   return (
     <>
@@ -24,9 +25,8 @@ const Hero = () => {
               impress with eye catchy, viral-ready content.
             </p>
             <div className="">
-              <button className="bg-[#E0DDFF] hover:bg-[#1F577E] hover:border-[#E0DDFF] hover:border hover:text-white transition-all duration-300 px-9 py-2 rounded-full text-[#181818] font-semibold font-Montserrat lg:text-xl sm:text-base">
-                Book a call
-              </button>
+           
+            <Button text="Book a call" />
             </div>
           </div>
           <div className="lg:w-2/6 md:w-1/2  rounded-lg p-8 sm:flex hidden flex-col   ">
