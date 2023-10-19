@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './App.css'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
-import Fade from './components/Fade/fade'
+import Fade from './components/Fade/Fade'
 
 function App() {
 
