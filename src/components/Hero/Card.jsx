@@ -1,19 +1,26 @@
 import { motion } from 'framer-motion';
-import React from 'react'
+import React, {useState} from 'react'
+import Modal from '../Modal/Modal';
+
 
 const Card = ({title, description,image,rating,key}) => {
-    const nameShortner = (string, length) => {
+  const [showModal, setShowModal] = useState(false);
+  const closeModal = () => {
+    setShowModal(false);
+  } 
+  const nameShortner = (string, length) => {
         return string.length > length ? string.slice(0, length) + "..." : string;
       };
   return (
     <div>
-        
+           {showModal && <Modal closeModal={closeModal} />}
         <motion.div
+         onClick={()=>{setShowModal(true)}}
        initial={{ opacity: 0, y: 10 }}
        animate={{ opacity: 1, y: 0 }}
        exit={{ opacity: 0, y: 10 }}
        transition={{ duration: 0.2 }}
-        key={key} className="max-w-lg rounded overflow-hidden shadow-lg font-Inter">
+        key={key} className="max-w-lg rounded overflow-hidden shadow-lg font-Inter cursor-pointer">
   <img className="w-[400px] h-[200px] " src={image}  alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2 flex justify-between items-center">
